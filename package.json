@@ -1,7 +1,7 @@
 {
-    "name": "myanimelist-restapi-scraper",
+    "name": "jikan-api-proxy",
     "version": "1.0.0",
-    "description": "REST API scraper untuk MyAnimeList menggunakan Bun JS",
+    "description": "A high-performance caching proxy server for the Jikan API",
     "main": "index.js",
     "type": "module",
     "scripts": {
