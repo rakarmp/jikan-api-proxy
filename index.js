@@ -1,7 +1,7 @@
 import { serve } from "bun";
 import { fetch } from "bun";
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "fs";
-import { join } from "path";
+import { join } from "node:path";
 
 const BASE_URL = "https://api.jikan.moe/v4";
 const PORT = process.env.PORT || 3000;
